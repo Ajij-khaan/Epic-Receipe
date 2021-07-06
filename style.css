@@ -23,12 +23,13 @@ h1{
 
 .text-orange{
     color: #ff0000;
+
 }
 .text-ash{
-    color: #2D2B2A;
+    color: #383737;
 }
 .text-ash-bright{
-    color: #5B5B5B;
+    color: gray;
 }
 .half{
     width: 50%;
