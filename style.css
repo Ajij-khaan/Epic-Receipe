@@ -2,20 +2,30 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
 }
 .header{
     display: flex;
-    margin: 150px 5% 150px 5%;
+    margin: 80px 5% 30px 5%;
+    /*border: 5px solid black;*/
 
 }
 
-.text-color{
-    color: orange;
+.text-orange{
+    color: #E06D20;
 }
-
+.text-ash{
+    color: #2D2B2A;
+}
+.text-ash-bright{
+    color: #5B5B5B;
+}
 .half{
     width: 50%;
+}
+#text-header{
+    padding-top: 200px;
 }
 .header-image{
     width: 50px;
@@ -27,4 +37,31 @@ h1{
     color: white;
     background-image: linear-gradient(orange, red);
     border-radius: 100px;
+    box-shadow: 0px 0px 10px #ffa365;
 }
+
+.about-me{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding: 0px 5% 0px 5%;
+    /*border: 5px solid black;*/
+}
+#text-about-me{
+    padding-top: 180px;
+}
+
+.foodmenu{
+    display: flex;
+}
+
+
+.footer{
+    background-color: black;
+}
+.text-footer{
+    color: white;
+    text-align: center;
+    padding: 5px 0px 70px 0;
+}
+
