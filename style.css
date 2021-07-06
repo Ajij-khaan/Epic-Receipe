@@ -1,19 +1,28 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
 h1{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 900;
 }
+
 .header{
     display: flex;
-    margin: 80px 5% 30px 5%;
-    /*border: 5px solid black;*/
+    margin: 50px 5% 50px 5%;
 
+}
+
+#header-image img{
+    width: 500px;
+}
+
+#text-header p{
+    margin-bottom: 50px;
 }
 
 .text-orange{
-    color: #E06D20;
+    color: #ff0000;
 }
 .text-ash{
     color: #2D2B2A;
@@ -25,19 +34,17 @@ h1{
     width: 50%;
 }
 #text-header{
-    padding-top: 200px;
+    padding-top: 140px;
 }
-.header-image{
-    width: 50px;
-}
+
 
 .button{
     text-decoration: none;
     padding: 15px 30px 15px 30px;
     color: white;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(#ff0000, #d32741);
     border-radius: 100px;
-    box-shadow: 0px 0px 10px #ffa365;
+    box-shadow: 0px 0px 15px #ff0000;
 }
 
 .about-me{
@@ -45,16 +52,73 @@ h1{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     padding: 0px 5% 0px 5%;
-    /*border: 5px solid black;*/
 }
+
+
 #text-about-me{
     padding-top: 180px;
+    color: gray;
+   
 }
 
-.foodmenu{
+#text-about-me p{
+    margin-bottom: 70px;
+    color: black;
+}
+
+
+
+.my-receipes{
+    color: gray;
+    text-align: center;
+    padding: 0px 100px 0 100px;
+    margin-top: 50px;
+}
+.my-receipes p{
+    color: black;
+}
+
+
+.receipes{
     display: flex;
+    margin: 20px 80px 80px 80px;
 }
 
+.single-receipe{
+    width: 33.33%;
+    background-color: white;
+    border: 13px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px gray;
+    margin: 20px;
+}
+.receipe-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.receipe-title-des{
+    padding: 10px;
+}
+
+.email{
+    display: flex;
+    color: white;
+    background-image: linear-gradient( #ff0000, #d32741);
+    padding: 20px 200px 20px 200px;
+    margin: 70px 0;
+}
+
+#input-button{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#submit-button{
+    color: white;
+    background-color: black;
+    padding: 0px 10px 0px 10px;
+}
 
 .footer{
     background-color: black;
@@ -62,6 +126,6 @@ h1{
 .text-footer{
     color: white;
     text-align: center;
-    padding: 5px 0px 70px 0;
+    padding: 10px 0px 70px 0;
 }
 
